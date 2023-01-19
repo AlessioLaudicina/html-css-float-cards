@@ -4,6 +4,10 @@
     border: border-box;
 }
 
+.debug .col{
+    border: 1px solid red;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -12,15 +16,51 @@ body{
     color: rgb( 229, 49, 112);
     font-weight: bold;
     text-align: center;
+    margin: 20px 0px 45px 0px;
 
 }
 .container{
-    margin: auto;
-    
+    max-width: 1170px;
+    margin: 0 auto;
+
 }
 
 
 .subtitle{
     text-align: center;
-    display: inline-block;
 }
+
+.colums{
+    padding-top: 100px;
+}
+
+
+
+.col{
+    background-color: black;
+    margin: auto;
+    
+    float: left;
+    width: calc(100% / 3 - 10px);
+    height: 80px;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.title_col{
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
