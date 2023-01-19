@@ -37,21 +37,17 @@ body{
 .col{
     background-color: black;
     margin: 10px;
-    
+    border-radius: 3px;
     float: left;
     width: calc(100% / 3 - 25px);
-    height: 80px;
+    height: 90px;
 }
 
-.clearfix::after{
-    content: '';
-    clear: both;
-    display: table;
-}
+
 
 img{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     float: left;
 }
 
