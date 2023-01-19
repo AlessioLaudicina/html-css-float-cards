@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.title{
+    color: rgb( 229, 49, 112);
+    font-weight: bold;
+    text-align: center;
+
+}
+.container{
+    margin: auto;
+    
+}
+
+
+.subtitle{
+    text-align: center;
+    display: inline-block;
+}
