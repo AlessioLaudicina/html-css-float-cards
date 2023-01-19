@@ -38,10 +38,10 @@ body{
 
 .col{
     background-color: black;
-    margin: auto;
+    margin: 10px;
     
     float: left;
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 25px);
     height: 80px;
 }
 
