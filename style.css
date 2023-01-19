@@ -4,9 +4,7 @@
     border: border-box;
 }
 
-.debug .col{
-    border: 1px solid red;
-}
+
 
 body{
     font-family: sans-serif;
@@ -31,7 +29,7 @@ body{
 }
 
 .colums{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 
@@ -59,8 +57,24 @@ img{
 
 .title_col{
     color:white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
+    padding-top: 8px;
 }
 
+.subtitle_col{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.email{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 162, 255);
+    text-align: center;
+    margin: 45px;
+    text-decoration: none;
+}
